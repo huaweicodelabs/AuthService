@@ -1,66 +1,84 @@
-package com.huawei.agc.quickstart.demo;
+@if "%DEBUG%" == "" @echo off
+@rem ##########################################################################
+@rem
+@rem  Gradle startup script for Windows
+@rem
+@rem ##########################################################################
 
-import android.content.Intent;
-import android.os.Bundle;
+@rem Set local scope for the variables with windows NT shell
+if "%OS%"=="Windows_NT" setlocal
 
-import androidx.annotation.Nullable;
+set DIRNAME=%~dp0
+if "%DIRNAME%" == "" set DIRNAME=.
+set APP_BASE_NAME=%~n0
+set APP_HOME=%DIRNAME%
 
-import com.huawei.agconnect.auth.AGConnectAuthCredential;
-import com.huawei.agconnect.auth.QQAuthProvider;
-import com.tencent.tauth.IUiListener;
-import com.tencent.tauth.Tencent;
-import com.tencent.tauth.UiError;
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS=
 
-import org.json.JSONObject;
+@rem Find java.exe
+if defined JAVA_HOME goto findJavaFromJavaHome
 
-public class QQActivity extends BaseAuthActivity {
-    private Tencent mTencent;
+set JAVA_EXE=java.exe
+%JAVA_EXE% -version >NUL 2>&1
+if "%ERRORLEVEL%" == "0" goto init
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mTencent = Tencent.createInstance(getString(R.string.qq_app_id), this.getApplicationContext());
-    }
+echo.
+echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
 
-    protected void login() {
-        mTencent.login(this, "all", new IUiListener() {
-            @Override
-            public void onComplete(Object o) {
-                JSONObject jsonObject = (JSONObject) o;
-                String accessToken = jsonObject.optString("access_token");
-                String openId = jsonObject.optString("openid");
-                AGConnectAuthCredential credential = QQAuthProvider.credentialWithToken(accessToken, openId);
-                auth.signIn(credential).addOnSuccessListener(signInResult -> {
-                    updateUI();
-                }).addOnFailureListener(e -> {
-                    showToast(e.getMessage());
-                });
-            }
+goto fail
 
-            @Override
-            public void onError(UiError uiError) {
-                showToast(uiError.toString());
-            }
+:findJavaFromJavaHome
+set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
-            @Override
-            public void onCancel() {
-                showToast("Cancel");
-            }
-        });
-    }
+if exist "%JAVA_EXE%" goto init
 
-    protected void logout() {
-        mTencent.logout(this);
-        auth.signOut();
-        updateUI();
-    }
+echo.
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
 
-    protected void link() {
-        mTencent.login(this, "all", new IUiListener() {
-            @Override
-            public void onComplete(Object o) {
-                JSONObject jsonObject = (JSONObject) o;
-                String accessToken = jsonObject.optString("access_token");
-                String openId = jsonObject.optString("openid");
-                AGConnectAuthCredential credential = QQAuthProvider.credentialWithToken(accessToken, openId);
-                auth.getCurre
+goto fail
+
+:init
+@rem Get command-line arguments, handling Windows variants
+
+if not "%OS%" == "Windows_NT" goto win9xME_args
+
+:win9xME_args
+@rem Slurp the command line arguments.
+set CMD_LINE_ARGS=
+set _SKIP=2
+
+:win9xME_args_slurp
+if "x%~1" == "x" goto execute
+
+set CMD_LINE_ARGS=%*
+
+:execute
+@rem Setup the command line
+
+set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
+
+@rem Execute Gradle
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
+
+:end
+@rem End local scope for the variables with windows NT shell
+if "%ERRORLEVEL%"=="0" goto mainEnd
+
+:fail
+rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+rem the _cmd.exe /c_ return code!
+if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
+exit /b 1
+
+:mainEnd
+if "%OS%"=="Windows_NT" endlocal
+
+:omega

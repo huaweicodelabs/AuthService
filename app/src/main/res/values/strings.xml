@@ -1,9 +1,12 @@
 <resources>
-    <string name="app_name">Auth Codelab Demo</string>
+    <string name="app_name">AuthCodelab</string>
     <string name="greeting_banner">Welcome to the Codelab</string>
     <string name="anonymous_button">Anonymous Login</string>
-    <string name="huaweiid_button">HuaweiID Login</string>
-    <string name="game_button">Game ID Login</string>
+    <string name="link_phone_button">Link Phone Number</string>
+    <string name="country_code">geocodes</string>
+    <string name="phone_number">Please enter phone number</string>
+    <string name="verfy_code">Please enter verification code</string>
+    <string name="get_verfy_code">Obtain Ver_Code</string>
     <string name="success_sign">Correct!</string>
     <string name="fail_sign">Failed</string>
 </resources>

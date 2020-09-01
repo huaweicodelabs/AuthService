@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">认证服务 Codelab 样例</string>
+    <string name="app_name">认证服务 Codelab</string>
     <string name="greeting_banner">欢迎来到 Codelab</string>
     <string name="anonymous_button">匿名帐号登录</string>
-    <string name="huaweiid_button">华为帐号登录</string>
-    <string name="game_button">华为游戏帐号登录</string>
+    <string name="link_phone_button">绑定手机号</string>
+    <string name="country_code">国家码</string>
+    <string name="phone_number">请输入手机号</string>
+    <string name="verfy_code">请输入验证码</string>
+    <string name="get_verfy_code">获取验证码</string>
     <string name="success_sign">正确</string>
     <string name="fail_sign">匹配失败</string>
 </resources>
