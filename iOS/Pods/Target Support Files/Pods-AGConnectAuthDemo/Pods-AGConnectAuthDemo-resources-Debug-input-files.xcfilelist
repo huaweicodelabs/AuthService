@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AGConnectAuthDemo/Pods-AGConnectAuthDemo-resources.sh
+${PODS_ROOT}/AGConnectCredential/AGCResources.bundle
+${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle
+${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle
