@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            //MD5:  4C:97:D9:F9:BC:16:96:49:28:EE:13:42:19:22:4C:39
+            //SHA1: 20:F3:A4:B2:AB:E5:90:FA:96:DA:2B:78:A1:24:05:0B:CA:4C:41:17
+            //SHA256: 3D:A8:9D:B0:83:6B:B7:32:DD:6B:6E:4F:FA:FF:74:A0:4F:8C:87:70:05:06:93:BF:42:C1:D2:C2:71:DB:CB:F8
+            storeFile file("demo.jks")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+
+        debug {
+            //MD5:  4C:97:D9:F9:BC:16:96:49:28:EE:13:42:19:22:4C:39
+            //SHA1: 20:F3:A4:B2:AB:E5:90:FA:96:DA:2B:78:A1:24:05:0B:CA:4C:41:17
+            //SHA256: 3D:A8:9D:B0:83:6B:B7:32:DD:6B:6E:4F:FA:FF:74:A0:4F:8C:87:70:05:06:93:BF:42:C1:D2:C2:71:DB:CB:F8
+            storeFile file("demo.jks")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.lucky.agc.demo"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.huawei.hms:hwid:4.0.0.300'
+    implementation 'com.huawei.hms:game:4.0.0.300'
+    implementation 'com.huawei.agconnect:agconnect-auth:1.3.1.300'
+}
+
+apply plugin: 'com.huawei.agconnect'
