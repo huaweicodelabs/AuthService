@@ -1,0 +1,470 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16FBSDKLoginButtonC", ""]
+- ["So16FBSDKLoginButtonC", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "FBLoginButton"
+- "Permission"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "map"]
+- !private ["10Accelerate0A13MutableBufferP", "map"]
+- !private ["Sa", "map"]
+- ["SK", ""]
+- !private ["SK", "map"]
+- ["So15CALayerDelegateP", "CGRect"]
+- ["So15CALayerDelegateP", "Permission"]
+- !private ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "__buttonWithType"]
+- ["So15CALayerDelegateP", "buttonWithType"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "permissions"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "permissions"]
+- ["Sl", ""]
+- !private ["Sl", "map"]
+- ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "permissions"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "permissions"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "map"]
+- !private ["Se", "zero"]
+- !private ["SE", "map"]
+- !private ["SE", "zero"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "permissions"]
+- !private ["SQ", "publicProfile"]
+- !private ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "name"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "publicProfile"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "name"]
+- !private ["s26ExpressibleByStringLiteralP", "publicProfile"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "name"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "publicProfile"]
+- ["So11FBSDKButtonC", "CGRect"]
+- ["So11FBSDKButtonC", "Permission"]
+- ["So11FBSDKButtonC", ""]
+- ["So11FBSDKButtonC", "init"]
+- !private ["So11FBSDKButtonC", "permissions"]
+- ["So16FBSDKLoginButtonC", "CGRect"]
+- ["So16FBSDKLoginButtonC", "Permission"]
+- ["So16FBSDKLoginButtonC", ""]
+- ["So16FBSDKLoginButtonC", "init"]
+- !private ["So16FBSDKLoginButtonC", "permissions"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "permissions"]
+- !private ["SH", "publicProfile"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "Permission"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "__buttonWithType"]
+- ["So8NSCodingP", "buttonWithType"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "permissions"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Permission"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__buttonWithType"]
+- ["So8NSObjectC", "buttonWithType"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "permissions"]
+- ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "Permission"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__buttonWithType"]
+- ["So8NSObjectP", "buttonWithType"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "permissions"]
+- !private ["12FBSDKCoreKit10PermissionO", "name"]
+- !private ["12FBSDKCoreKit10PermissionO", "publicProfile"]
+- !private ["Sk", ""]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- ["ST", ""]
+- !private ["ST", "map"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGRect"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "Permission"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "permissions"]
+- ["So29UIAccessibilityIdentificationP", "CGRect"]
+- ["So29UIAccessibilityIdentificationP", "Permission"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "__buttonWithType"]
+- ["So29UIAccessibilityIdentificationP", "buttonWithType"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "permissions"]
+- ["So12UIAppearanceP", "CGRect"]
+- ["So12UIAppearanceP", "Permission"]
+- !private ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "__buttonWithType"]
+- ["So12UIAppearanceP", "buttonWithType"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "permissions"]
+- ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "Permission"]
+- !private ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "__buttonWithType"]
+- ["So21UIAppearanceContainerP", "buttonWithType"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "permissions"]
+- ["So8UIButtonC", "CGRect"]
+- ["So8UIButtonC", "Permission"]
+- ["So8UIButtonC", ""]
+- ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "permissions"]
+- ["So32UIContextMenuInteractionDelegateP", "CGRect"]
+- ["So32UIContextMenuInteractionDelegateP", "Permission"]
+- !private ["So32UIContextMenuInteractionDelegateP", ""]
+- ["So32UIContextMenuInteractionDelegateP", "__buttonWithType"]
+- ["So32UIContextMenuInteractionDelegateP", "buttonWithType"]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- !private ["So32UIContextMenuInteractionDelegateP", "permissions"]
+- ["So9UIControlC", "CGRect"]
+- ["So9UIControlC", "Permission"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "__buttonWithType"]
+- ["So9UIControlC", "buttonWithType"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "permissions"]
+- ["So17UICoordinateSpaceP", "CGRect"]
+- ["So17UICoordinateSpaceP", "Permission"]
+- !private ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "__buttonWithType"]
+- ["So17UICoordinateSpaceP", "buttonWithType"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "permissions"]
+- ["So13UIDynamicItemP", "CGRect"]
+- ["So13UIDynamicItemP", "Permission"]
+- !private ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "__buttonWithType"]
+- ["So13UIDynamicItemP", "buttonWithType"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "permissions"]
+- ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "Permission"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "__buttonWithType"]
+- ["So18UIFocusEnvironmentP", "buttonWithType"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "permissions"]
+- ["So11UIFocusItemP", "CGRect"]
+- ["So11UIFocusItemP", "Permission"]
+- !private ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "__buttonWithType"]
+- ["So11UIFocusItemP", "buttonWithType"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "permissions"]
+- ["So20UIFocusItemContainerP", "CGRect"]
+- ["So20UIFocusItemContainerP", "Permission"]
+- !private ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "__buttonWithType"]
+- ["So20UIFocusItemContainerP", "buttonWithType"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "permissions"]
+- ["So24UILargeContentViewerItemP", "CGRect"]
+- ["So24UILargeContentViewerItemP", "Permission"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "__buttonWithType"]
+- ["So24UILargeContentViewerItemP", "buttonWithType"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "permissions"]
+- ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "Permission"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "__buttonWithType"]
+- ["So30UIPasteConfigurationSupportingP", "buttonWithType"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "permissions"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Permission"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "__buttonWithType"]
+- ["So11UIResponderC", "buttonWithType"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "permissions"]
+- ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "Permission"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "__buttonWithType"]
+- ["So30UIResponderStandardEditActionsP", "buttonWithType"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "permissions"]
+- ["So35UISpringLoadedInteractionSupportingP", "CGRect"]
+- ["So35UISpringLoadedInteractionSupportingP", "Permission"]
+- !private ["So35UISpringLoadedInteractionSupportingP", ""]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "permissions"]
+- ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "Permission"]
+- !private ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "__buttonWithType"]
+- ["So18UITraitEnvironmentP", "buttonWithType"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "permissions"]
+- ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "Permission"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "__buttonWithType"]
+- ["So23UIUserActivityRestoringP", "buttonWithType"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "permissions"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "Permission"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "__buttonWithType"]
+- ["So6UIViewC", "buttonWithType"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "permissions"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permissions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "permissions"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "permissions"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "Sa"
+- "SK"
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11FBSDKButtonC"
+- "So16FBSDKLoginButtonC"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12FBSDKCoreKit10PermissionO"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yaojun/Desktop/auth/ios/build/example/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h"
+- "/Users/yaojun/Desktop/auth/ios/build/example/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit-umbrella.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralCode.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKUserDataStore.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKJSONValue.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolving.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolving.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCrashObserving.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLink.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKURLSessionTask.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKURLSession.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkNavigation.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestConnection.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginButton.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolverRequestBuilder.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolverRequestBuilder.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralManager.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginManager.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginManager.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCrashHandler.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/Resolver/FBSDKAppLinkResolver.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKLibAnalyzer.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKCoreKit_Basics.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginConstants.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkTarget.h"
+- "/Users/yaojun/Desktop/auth/ios/build/example/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/Swift Compatibility Header/FBSDKCoreKit-Swift.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKReferralManagerResult.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequestDataAttachment.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKCoreKitImport.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKSafeCast.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphRequest.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKTooltipView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginTooltipView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKBasicUtility.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/Sources/FBSDKCoreKit_Basics/include/FBSDKTypeUtility.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/RNAGCAuth/RNAGCAuth.modulemap"
+- "/Users/yaojun/Desktop/auth/ios/build/example/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.modulemap"
+- "/Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/FBSDKLoginKit/FBSDKLoginKit.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f863236952caf989f69529a66b0e116d"

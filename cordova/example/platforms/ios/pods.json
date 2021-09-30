@@ -1,0 +1,25 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 2
+        }
+    },
+    "sources": {},
+    "libraries": {
+        "AGConnectCrash": {
+            "name": "AGConnectCrash",
+            "spec": "1.2.1.300",
+            "count": 1
+        },
+        "HiAnalytics": {
+            "name": "HiAnalytics",
+            "count": 1
+        },
+        "AGConnectAuth": {
+            "name": "AGConnectAuth",
+            "spec": "1.2.1.300",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		050CD8D686878C1A3E4282F4BCA08E00 /* HMFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13EEBA04F9EBBE5D752FEAE92E7AB882 /* Build configuration list for PBXAggregateTarget "HMFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HMFoundation;
+		};
+		2A070B3F458158122F5C2B948726944F /* HiAnalytics */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B143FF8239F8596D470575A1FB183669 /* Build configuration list for PBXAggregateTarget "HiAnalytics" */;
+			buildPhases = (
+			);
+			dependencies = (
+				186DBDA157D1716A82FE54A645600848 /* PBXTargetDependency */,
+			);
+			name = HiAnalytics;
+		};
+		32ACCC280C838779A9622A4E54C8025A /* AGConnectCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EEBF5CF74254C7E4DE68F1E25800E5C5 /* Build configuration list for PBXAggregateTarget "AGConnectCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+				05F7F11C9A2B808F192B4E2B2FC623A7 /* PBXTargetDependency */,
+			);
+			name = AGConnectCore;
+		};
+		3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5D33B6001BC3C36279BF04B97A8C76B /* Build configuration list for PBXAggregateTarget "AGConnectCredential" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B52B521782B0997892D8D31CF83BBFD0 /* PBXTargetDependency */,
+			);
+			name = AGConnectCredential;
+		};
+		3F3CA1D88ACAD539E613D4F6B1409530 /* AGConnectCrash */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B52B7C05126ADB1C86807B50955710DF /* Build configuration list for PBXAggregateTarget "AGConnectCrash" */;
+			buildPhases = (
+			);
+			dependencies = (
+				28AAA9B68548E2DAADF471022381138A /* PBXTargetDependency */,
+			);
+			name = AGConnectCrash;
+		};
+		EADEC9289D4495AD92E3AFE2AA78A6CC /* AGConnectAuth */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72F951254CD51FF7CF53A37B45689BB0 /* Build configuration list for PBXAggregateTarget "AGConnectAuth" */;
+			buildPhases = (
+			);
+			dependencies = (
+				DA7F7BA50D6E29923A1D2B8B9FE500B7 /* PBXTargetDependency */,
+			);
+			name = AGConnectAuth;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1FA7080D2154238ED65573236C672769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26392ED91F792C22410B4E4EE3ADCDDD /* Pods-AGCCordova-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4634C3BF18E44B5B01D94380365FB606 /* Pods-AGCCordova-dummy.m */; };
+		849962CA4CA17550353BF85A1EA8D68F /* Pods-AGCCordova-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2838062EE6AEE7B583DB89FC722DB8A7 /* Pods-AGCCordova-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		596DCFD8C3BDB0D8D1C1C30E98E4A23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3688C08B8DBB2E0DAC0AAFB09207BDAA;
+			remoteInfo = AGConnectCredential;
+		};
+		654F8126951CBB55693837222D5FC2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3688C08B8DBB2E0DAC0AAFB09207BDAA;
+			remoteInfo = AGConnectCredential;
+		};
+		66F19560D5BAAF67CD8F752DF9E355DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3CA1D88ACAD539E613D4F6B1409530;
+			remoteInfo = AGConnectCrash;
+		};
+		82370FC3140ECBBDCE9A2C68803A84BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3688C08B8DBB2E0DAC0AAFB09207BDAA;
+			remoteInfo = AGConnectCredential;
+		};
+		9168E9E261EB7EC5BBF0C0DC68412864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050CD8D686878C1A3E4282F4BCA08E00;
+			remoteInfo = HMFoundation;
+		};
+		93BAFA91DD1196C9EFA694C82A06DF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050CD8D686878C1A3E4282F4BCA08E00;
+			remoteInfo = HMFoundation;
+		};
+		93BFDCF1B11FEBEA72853F08454E00D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A070B3F458158122F5C2B948726944F;
+			remoteInfo = HiAnalytics;
+		};
+		B3C5584119FFADD37077197FA9A61AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32ACCC280C838779A9622A4E54C8025A;
+			remoteInfo = AGConnectCore;
+		};
+		C58B0CD1CCB3EDEA0C4A26F9698F1121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3688C08B8DBB2E0DAC0AAFB09207BDAA;
+			remoteInfo = AGConnectCredential;
+		};
+		D146E7C306F232E4CDD89F097D17C55E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32ACCC280C838779A9622A4E54C8025A;
+			remoteInfo = AGConnectCore;
+		};
+		E687AE8472A56F3841BCD158BA0D19C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADEC9289D4495AD92E3AFE2AA78A6CC;
+			remoteInfo = AGConnectAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169892CFE9C12B229017A83E1F576988 /* AGConnectCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCore.release.xcconfig; sourceTree = "<group>"; };
+		19F124382B0F1FC7FAE4B3313BD6F294 /* AGConnectAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectAuth.release.xcconfig; sourceTree = "<group>"; };
+		2838062EE6AEE7B583DB89FC722DB8A7 /* Pods-AGCCordova-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGCCordova-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37A8767A951F44435009205E4B22ED7F /* AGCResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AGCResources.bundle; sourceTree = "<group>"; };
+		3C4932F2810A5308DC215B45D74A3EAC /* Pods-AGCCordova-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGCCordova-Info.plist"; sourceTree = "<group>"; };
+		4634C3BF18E44B5B01D94380365FB606 /* Pods-AGCCordova-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGCCordova-dummy.m"; sourceTree = "<group>"; };
+		4FE89336880F2EA087A9D85B8C11102B /* AGConnectCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCore.debug.xcconfig; sourceTree = "<group>"; };
+		65DF6EBC85BC5A71C365657D7AE4796B /* AGConnectCredential.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCredential.release.xcconfig; sourceTree = "<group>"; };
+		6A8A58A8439A659BDF176A1D6F6C18C6 /* HiAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiAnalytics.debug.xcconfig; sourceTree = "<group>"; };
+		74EBDA35FEFE608478E8EA496E2C69B6 /* Pods-AGCCordova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGCCordova.release.xcconfig"; sourceTree = "<group>"; };
+		7A9C8954A14F3427B8931A26E13FCD2E /* AGConnectCredential.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGConnectCredential.framework; sourceTree = "<group>"; };
+		825C06E6B1F02E307401EEECEBC344BA /* AGConnectCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGConnectCore.framework; sourceTree = "<group>"; };
+		8699366E4AA3FA42B40A85CF863E9C29 /* AGConnectCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGConnectCrash.framework; sourceTree = "<group>"; };
+		8D9560DAB6998AEBA269CCEB86823BEC /* HMFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMFoundation.release.xcconfig; sourceTree = "<group>"; };
+		94EB2B2080BAF8D11F77D5260AE89DEC /* Pods_AGCCordova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGCCordova.framework; path = "Pods-AGCCordova.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C06628EC963B3081E904930742BE3CB /* AGConnectAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectAuth.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2580F8E33EA2D362E2502DAD9EE71D7 /* Pods-AGCCordova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGCCordova.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0D5EEBA51060C1E1F9C1B24F45787A /* Pods-AGCCordova-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGCCordova-acknowledgements.plist"; sourceTree = "<group>"; };
+		B01785E1CBE2B813FB0FF8AC72EC9795 /* AGConnectCrash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCrash.debug.xcconfig; sourceTree = "<group>"; };
+		B948F5B70B55B97BD170E898A9B90FAA /* Pods-AGCCordova.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AGCCordova.modulemap"; sourceTree = "<group>"; };
+		C401CE6C2D371710799927C1A923CE4E /* AGConnectCredential.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCredential.debug.xcconfig; sourceTree = "<group>"; };
+		C729FF42BA6406E4CCA7EC6F031AA1E1 /* HMFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		D2605F78CDAB1E364B08FCCAEDDE2610 /* HiAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiAnalytics.release.xcconfig; sourceTree = "<group>"; };
+		DD492C4DDD8A5217AB3FBCD60D5171BF /* Pods-AGCCordova-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGCCordova-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E33A34E8D648A3C6D4B154BB7863B0D8 /* AGConnectAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGConnectAuth.framework; sourceTree = "<group>"; };
+		F068019D191364CB7E23F076F65C286F /* HiAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HiAnalytics.framework; sourceTree = "<group>"; };
+		F1F06C4DCEECC397A4F063B1525E5068 /* AGConnectCrash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGConnectCrash.release.xcconfig; sourceTree = "<group>"; };
+		F3E2C6BB7313D59862A3E7EE73010D73 /* HMFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HMFoundation.framework; sourceTree = "<group>"; };
+		F9ABF93B31C4D93251EC7F143C7B834C /* Pods-AGCCordova-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGCCordova-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5690DB534CB0D29560FFED88838F37E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA7080D2154238ED65573236C672769 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179F175FE7DB3C31793A0863DA135D4F /* Pods-AGCCordova */ = {
+			isa = PBXGroup;
+			children = (
+				B948F5B70B55B97BD170E898A9B90FAA /* Pods-AGCCordova.modulemap */,
+				DD492C4DDD8A5217AB3FBCD60D5171BF /* Pods-AGCCordova-acknowledgements.markdown */,
+				AA0D5EEBA51060C1E1F9C1B24F45787A /* Pods-AGCCordova-acknowledgements.plist */,
+				4634C3BF18E44B5B01D94380365FB606 /* Pods-AGCCordova-dummy.m */,
+				3C4932F2810A5308DC215B45D74A3EAC /* Pods-AGCCordova-Info.plist */,
+				F9ABF93B31C4D93251EC7F143C7B834C /* Pods-AGCCordova-resources.sh */,
+				2838062EE6AEE7B583DB89FC722DB8A7 /* Pods-AGCCordova-umbrella.h */,
+				A2580F8E33EA2D362E2502DAD9EE71D7 /* Pods-AGCCordova.debug.xcconfig */,
+				74EBDA35FEFE608478E8EA496E2C69B6 /* Pods-AGCCordova.release.xcconfig */,
+			);
+			name = "Pods-AGCCordova";
+			path = "Target Support Files/Pods-AGCCordova";
+			sourceTree = "<group>";
+		};
+		2E4F34C7991DB8E834D95A3C4FFE0E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F068019D191364CB7E23F076F65C286F /* HiAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46682D5094C32EDA0B54A2403948B187 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C401CE6C2D371710799927C1A923CE4E /* AGConnectCredential.debug.xcconfig */,
+				65DF6EBC85BC5A71C365657D7AE4796B /* AGConnectCredential.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGConnectCredential";
+			sourceTree = "<group>";
+		};
+		4718F4D6AE9312C71316E07E087F23EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A8A58A8439A659BDF176A1D6F6C18C6 /* HiAnalytics.debug.xcconfig */,
+				D2605F78CDAB1E364B08FCCAEDDE2610 /* HiAnalytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HiAnalytics";
+			sourceTree = "<group>";
+		};
+		493F6EE108B3B64DDFEBB68614680568 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37A8767A951F44435009205E4B22ED7F /* AGCResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4BBA1612B30FD7BE71C2DA8E9DC64BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825C06E6B1F02E307401EEECEBC344BA /* AGConnectCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6963B0981738DA6D83C67BA15242BF67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE89336880F2EA087A9D85B8C11102B /* AGConnectCore.debug.xcconfig */,
+				169892CFE9C12B229017A83E1F576988 /* AGConnectCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGConnectCore";
+			sourceTree = "<group>";
+		};
+		6E53D89F70A09415914660F10EFA4B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9C8954A14F3427B8931A26E13FCD2E /* AGConnectCredential.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F72E10D0D3F6D0F4FCC6CC9D132A8F2 /* AGConnectAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8467C19AC663D79B2043807921F03135 /* Frameworks */,
+				9E9B21CF958A9C7C09FE36E85B2F8ADD /* Support Files */,
+			);
+			name = AGConnectAuth;
+			path = AGConnectAuth;
+			sourceTree = "<group>";
+		};
+		731B9C049EF9608AF13C2A89BB8621F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8699366E4AA3FA42B40A85CF863E9C29 /* AGConnectCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F65C9524A89EAA0EEEB34294D78F2EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F72E10D0D3F6D0F4FCC6CC9D132A8F2 /* AGConnectAuth */,
+				899C7BD218AAEEE0578D9F590BDDBAFE /* AGConnectCore */,
+				D7C5CD08B91075B5D65F50E15E775039 /* AGConnectCrash */,
+				9D941DC1BB7B971196411CC3DE55BBC1 /* AGConnectCredential */,
+				D767480769EAF1D30E9DCD4CC42A396E /* HiAnalytics */,
+				F644AA398C7BFC20D20284F20D8F1603 /* HMFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81169CAB2BD1A9CFE671DFF954189688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EB2B2080BAF8D11F77D5260AE89DEC /* Pods_AGCCordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8467C19AC663D79B2043807921F03135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33A34E8D648A3C6D4B154BB7863B0D8 /* AGConnectAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899C7BD218AAEEE0578D9F590BDDBAFE /* AGConnectCore */ = {
+			isa = PBXGroup;
+			children = (
+				4BBA1612B30FD7BE71C2DA8E9DC64BEB /* Frameworks */,
+				6963B0981738DA6D83C67BA15242BF67 /* Support Files */,
+			);
+			name = AGConnectCore;
+			path = AGConnectCore;
+			sourceTree = "<group>";
+		};
+		9D941DC1BB7B971196411CC3DE55BBC1 /* AGConnectCredential */ = {
+			isa = PBXGroup;
+			children = (
+				6E53D89F70A09415914660F10EFA4B25 /* Frameworks */,
+				493F6EE108B3B64DDFEBB68614680568 /* Resources */,
+				46682D5094C32EDA0B54A2403948B187 /* Support Files */,
+			);
+			name = AGConnectCredential;
+			path = AGConnectCredential;
+			sourceTree = "<group>";
+		};
+		9E9B21CF958A9C7C09FE36E85B2F8ADD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C06628EC963B3081E904930742BE3CB /* AGConnectAuth.debug.xcconfig */,
+				19F124382B0F1FC7FAE4B3313BD6F294 /* AGConnectAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGConnectAuth";
+			sourceTree = "<group>";
+		};
+		A07F1149DDA8659DAEBEBED367E8A08D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B01785E1CBE2B813FB0FF8AC72EC9795 /* AGConnectCrash.debug.xcconfig */,
+				F1F06C4DCEECC397A4F063B1525E5068 /* AGConnectCrash.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGConnectCrash";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3C5E02743AEF42442747F9DB1C26CBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C729FF42BA6406E4CCA7EC6F031AA1E1 /* HMFoundation.debug.xcconfig */,
+				8D9560DAB6998AEBA269CCEB86823BEC /* HMFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMFoundation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F65C9524A89EAA0EEEB34294D78F2EC /* Pods */,
+				81169CAB2BD1A9CFE671DFF954189688 /* Products */,
+				E0E24B005AFDFCC7D4ED62FAA3E9562E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D767480769EAF1D30E9DCD4CC42A396E /* HiAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F34C7991DB8E834D95A3C4FFE0E8C /* Frameworks */,
+				4718F4D6AE9312C71316E07E087F23EB /* Support Files */,
+			);
+			name = HiAnalytics;
+			path = HiAnalytics;
+			sourceTree = "<group>";
+		};
+		D7C5CD08B91075B5D65F50E15E775039 /* AGConnectCrash */ = {
+			isa = PBXGroup;
+			children = (
+				731B9C049EF9608AF13C2A89BB8621F6 /* Frameworks */,
+				A07F1149DDA8659DAEBEBED367E8A08D /* Support Files */,
+			);
+			name = AGConnectCrash;
+			path = AGConnectCrash;
+			sourceTree = "<group>";
+		};
+		DEBB0936AD3F20A526BEE474772323FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E2C6BB7313D59862A3E7EE73010D73 /* HMFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E24B005AFDFCC7D4ED62FAA3E9562E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				179F175FE7DB3C31793A0863DA135D4F /* Pods-AGCCordova */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F644AA398C7BFC20D20284F20D8F1603 /* HMFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB0936AD3F20A526BEE474772323FF /* Frameworks */,
+				C3C5E02743AEF42442747F9DB1C26CBE /* Support Files */,
+			);
+			name = HMFoundation;
+			path = HMFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88ABB708180026E05E79A8AE3C52B45C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849962CA4CA17550353BF85A1EA8D68F /* Pods-AGCCordova-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6159F0AFD3BADE49F37919934DF4D6C3 /* Pods-AGCCordova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E101B18CEDA8F71E64853E3A81965D9 /* Build configuration list for PBXNativeTarget "Pods-AGCCordova" */;
+			buildPhases = (
+				88ABB708180026E05E79A8AE3C52B45C /* Headers */,
+				6BA40C9B6B2EC83DB906837E6D831791 /* Sources */,
+				5690DB534CB0D29560FFED88838F37E3 /* Frameworks */,
+				82A92C6872364116CC62EDEB93EF53A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CA28C1B106CF4BFDBAE9965D3211BF /* PBXTargetDependency */,
+				CB9139A85834F63B23AC595984E850C6 /* PBXTargetDependency */,
+				A59E062F379507C1F7A19E71D5DE5203 /* PBXTargetDependency */,
+				6916E69E90D2C41FD1A43A0E7F0090F2 /* PBXTargetDependency */,
+				BE9435CFF1DB5E3497401F488F545031 /* PBXTargetDependency */,
+				54523BA59D21CFEECB9765711667D09C /* PBXTargetDependency */,
+			);
+			name = "Pods-AGCCordova";
+			productName = "Pods-AGCCordova";
+			productReference = 94EB2B2080BAF8D11F77D5260AE89DEC /* Pods_AGCCordova.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81169CAB2BD1A9CFE671DFF954189688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADEC9289D4495AD92E3AFE2AA78A6CC /* AGConnectAuth */,
+				32ACCC280C838779A9622A4E54C8025A /* AGConnectCore */,
+				3F3CA1D88ACAD539E613D4F6B1409530 /* AGConnectCrash */,
+				3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */,
+				2A070B3F458158122F5C2B948726944F /* HiAnalytics */,
+				050CD8D686878C1A3E4282F4BCA08E00 /* HMFoundation */,
+				6159F0AFD3BADE49F37919934DF4D6C3 /* Pods-AGCCordova */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A92C6872364116CC62EDEB93EF53A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA40C9B6B2EC83DB906837E6D831791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26392ED91F792C22410B4E4EE3ADCDDD /* Pods-AGCCordova-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F7F11C9A2B808F192B4E2B2FC623A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMFoundation;
+			target = 050CD8D686878C1A3E4282F4BCA08E00 /* HMFoundation */;
+			targetProxy = 9168E9E261EB7EC5BBF0C0DC68412864 /* PBXContainerItemProxy */;
+		};
+		186DBDA157D1716A82FE54A645600848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCredential;
+			target = 3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */;
+			targetProxy = 596DCFD8C3BDB0D8D1C1C30E98E4A23F /* PBXContainerItemProxy */;
+		};
+		28AAA9B68548E2DAADF471022381138A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCredential;
+			target = 3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */;
+			targetProxy = 654F8126951CBB55693837222D5FC2D1 /* PBXContainerItemProxy */;
+		};
+		28CA28C1B106CF4BFDBAE9965D3211BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectAuth;
+			target = EADEC9289D4495AD92E3AFE2AA78A6CC /* AGConnectAuth */;
+			targetProxy = E687AE8472A56F3841BCD158BA0D19C2 /* PBXContainerItemProxy */;
+		};
+		54523BA59D21CFEECB9765711667D09C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HiAnalytics;
+			target = 2A070B3F458158122F5C2B948726944F /* HiAnalytics */;
+			targetProxy = 93BFDCF1B11FEBEA72853F08454E00D5 /* PBXContainerItemProxy */;
+		};
+		6916E69E90D2C41FD1A43A0E7F0090F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCredential;
+			target = 3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */;
+			targetProxy = 82370FC3140ECBBDCE9A2C68803A84BA /* PBXContainerItemProxy */;
+		};
+		A59E062F379507C1F7A19E71D5DE5203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCrash;
+			target = 3F3CA1D88ACAD539E613D4F6B1409530 /* AGConnectCrash */;
+			targetProxy = 66F19560D5BAAF67CD8F752DF9E355DD /* PBXContainerItemProxy */;
+		};
+		B52B521782B0997892D8D31CF83BBFD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCore;
+			target = 32ACCC280C838779A9622A4E54C8025A /* AGConnectCore */;
+			targetProxy = D146E7C306F232E4CDD89F097D17C55E /* PBXContainerItemProxy */;
+		};
+		BE9435CFF1DB5E3497401F488F545031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMFoundation;
+			target = 050CD8D686878C1A3E4282F4BCA08E00 /* HMFoundation */;
+			targetProxy = 93BAFA91DD1196C9EFA694C82A06DF8F /* PBXContainerItemProxy */;
+		};
+		CB9139A85834F63B23AC595984E850C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCore;
+			target = 32ACCC280C838779A9622A4E54C8025A /* AGConnectCore */;
+			targetProxy = B3C5584119FFADD37077197FA9A61AFC /* PBXContainerItemProxy */;
+		};
+		DA7F7BA50D6E29923A1D2B8B9FE500B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGConnectCredential;
+			target = 3688C08B8DBB2E0DAC0AAFB09207BDAA /* AGConnectCredential */;
+			targetProxy = C58B0CD1CCB3EDEA0C4A26F9698F1121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04EC5386EBBF5A179FB1F58AF32109E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2605F78CDAB1E364B08FCCAEDDE2610 /* HiAnalytics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D0FEF0C75F01342723D59FBB68A711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DF6EBC85BC5A71C365657D7AE4796B /* AGConnectCredential.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17FF2F2684271E6A68C9E32E523BA8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C401CE6C2D371710799927C1A923CE4E /* AGConnectCredential.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3699C0649E18213D79816810764205C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE89336880F2EA087A9D85B8C11102B /* AGConnectCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38D00C2CACC8625DA0E2C8227D35ED12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EBDA35FEFE608478E8EA496E2C69B6 /* Pods-AGCCordova.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGCCordova/Pods-AGCCordova-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGCCordova/Pods-AGCCordova.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C52CE003E1A46054B1F983B07FE2C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F124382B0F1FC7FAE4B3313BD6F294 /* AGConnectAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E6152DBDCA6CB2FB1801D225E2C95BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2580F8E33EA2D362E2502DAD9EE71D7 /* Pods-AGCCordova.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGCCordova/Pods-AGCCordova-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGCCordova/Pods-AGCCordova.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56B4632D9391190EDC39A8A4BC489B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729FF42BA6406E4CCA7EC6F031AA1E1 /* HMFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701B776F337A7623DEFD93E6A9C45E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8A58A8439A659BDF176A1D6F6C18C6 /* HiAnalytics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722B605CB498DE9A730C0C10AA942BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F06C4DCEECC397A4F063B1525E5068 /* AGConnectCrash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880F82E2E6AE375A22C5E6D802E1CAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01785E1CBE2B813FB0FF8AC72EC9795 /* AGConnectCrash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B36B51A2F5C82E2672B5EB6E81017655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C06628EC963B3081E904930742BE3CB /* AGConnectAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C104A85F322E3B2E64B168EF2A475368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169892CFE9C12B229017A83E1F576988 /* AGConnectCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFC6C2AEFC924424AAD6955DC9892EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9560DAB6998AEBA269CCEB86823BEC /* HMFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E101B18CEDA8F71E64853E3A81965D9 /* Build configuration list for PBXNativeTarget "Pods-AGCCordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6152DBDCA6CB2FB1801D225E2C95BF /* Debug */,
+				38D00C2CACC8625DA0E2C8227D35ED12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13EEBA04F9EBBE5D752FEAE92E7AB882 /* Build configuration list for PBXAggregateTarget "HMFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B4632D9391190EDC39A8A4BC489B3E /* Debug */,
+				DFC6C2AEFC924424AAD6955DC9892EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F951254CD51FF7CF53A37B45689BB0 /* Build configuration list for PBXAggregateTarget "AGConnectAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B51A2F5C82E2672B5EB6E81017655 /* Debug */,
+				3C52CE003E1A46054B1F983B07FE2C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B143FF8239F8596D470575A1FB183669 /* Build configuration list for PBXAggregateTarget "HiAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701B776F337A7623DEFD93E6A9C45E43 /* Debug */,
+				04EC5386EBBF5A179FB1F58AF32109E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52B7C05126ADB1C86807B50955710DF /* Build configuration list for PBXAggregateTarget "AGConnectCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880F82E2E6AE375A22C5E6D802E1CAD4 /* Debug */,
+				722B605CB498DE9A730C0C10AA942BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D33B6001BC3C36279BF04B97A8C76B /* Build configuration list for PBXAggregateTarget "AGConnectCredential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FF2F2684271E6A68C9E32E523BA8BD /* Debug */,
+				09D0FEF0C75F01342723D59FBB68A711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBF5CF74254C7E4DE68F1E25800E5C5 /* Build configuration list for PBXAggregateTarget "AGConnectCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3699C0649E18213D79816810764205C3 /* Debug */,
+				C104A85F322E3B2E64B168EF2A475368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

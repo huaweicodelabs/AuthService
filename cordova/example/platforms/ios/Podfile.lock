@@ -1,0 +1,38 @@
+PODS:
+  - AGConnectAuth (1.2.1.300):
+    - AGConnectCredential (~> 1.2.1)
+  - AGConnectCore (1.2.1.200):
+    - HMFoundation (~> 1.2.1)
+  - AGConnectCrash (1.2.1.300):
+    - AGConnectCredential (~> 1.2.1)
+  - AGConnectCredential (1.2.1.200):
+    - AGConnectCore (~> 1.2.1)
+  - HiAnalytics (5.0.5.300):
+    - AGConnectCredential (>= 1.1.0)
+  - HMFoundation (1.2.1.200)
+
+DEPENDENCIES:
+  - AGConnectAuth (= 1.2.1.300)
+  - AGConnectCrash (= 1.2.1.300)
+  - HiAnalytics
+
+SPEC REPOS:
+  trunk:
+    - AGConnectAuth
+    - AGConnectCore
+    - AGConnectCrash
+    - AGConnectCredential
+    - HiAnalytics
+    - HMFoundation
+
+SPEC CHECKSUMS:
+  AGConnectAuth: 910faeafb0592c0c52118cb103e16adb5464e5e6
+  AGConnectCore: 9de045a31805c0a3a2a584e8803e87aec98182bd
+  AGConnectCrash: fdcb6f8074005475d8a20242905dbe6012b9368a
+  AGConnectCredential: 69c9440ee9631a902b92b6ffe618e22d65997482
+  HiAnalytics: 6a5189b870e39e052a4c62f1ca6ae80cb4e4229a
+  HMFoundation: 4f8060ecdaed6fb5ed3c663c2be37f7ccf0feee8
+
+PODFILE CHECKSUM: 3a4952458f98daf0a7320b1bf6b9202e60f0016d
+
+COCOAPODS: 1.9.3

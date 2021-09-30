@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/yaojun/Desktop/auth/node_modules/react-native/React/CxxBridge/NSDataBigString.mm \
+  /Users/yaojun/Desktop/auth/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/yaojun/Desktop/auth/node_modules/react-native/React/CxxBridge/NSDataBigString.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/React-cxxreact/cxxreact/JSBigString.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Exception.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Conv.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/DoubleConversion/double-conversion/double-conversion.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/DoubleConversion/double-conversion/utils.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Demangle.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/FBString.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Portability.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/CPortability.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Traits.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/hash/Hash.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Utility.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/functional/ApplyTuple.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/functional/Invoke.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Preprocessor.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/hash/SpookyHashV1.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/hash/SpookyHashV2.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/lang/Bits.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/ConstexprMath.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/lang/Assume.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/portability/Builtins.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/memory/Malloc.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/memory/detail/MallocImpl.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Expected.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Likely.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Optional.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Unit.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/lang/ColdClass.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/Range.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/portability/Constexpr.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/portability/String.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/CpuId.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/detail/RangeCommon.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/glog/glog/logging.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/glog/glog/log_severity.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Headers/Public/glog/glog/vlog_is_on.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/detail/RangeSse42.h \
+  /Users/yaojun/Desktop/auth/ios/Pods/Folly/folly/portability/Math.h

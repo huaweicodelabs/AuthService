@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "16fd78cdbd1ea1df1703dbfb2220a085"
+build_time: [1623307105, 100942000]
+inputs:
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/Swift/Enums+Extensions.swift": [1623294066, 804237264]

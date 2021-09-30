@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "5cf7d7e011b2880128954347dfe500c9"
+build_time: [1623294464, 631235000]
+inputs:
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Swift/FBLoginButton.swift": [1623294066, 769239675]
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Swift/LoginManager.swift": [1623294066, 769653822]

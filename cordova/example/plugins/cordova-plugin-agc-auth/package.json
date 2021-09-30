@@ -1,0 +1,40 @@
+{
+  "_from": "@cordova-plugin-agconnect/auth@^1.1.0-beta",
+  "_id": "@cordova-plugin-agconnect/auth@1.1.0-beta",
+  "_inBundle": false,
+  "_integrity": "sha512-v6rnX8UMTf9JnynAjWmvHltP4r2TNrwuwM6m+5+pUpcPHGMQ0eFNTSuD5BtILWQqvIJ+gD4oN/mvIx92PuufMA==",
+  "_location": "/@cordova-plugin-agconnect/auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@cordova-plugin-agconnect/auth@^1.1.0-beta",
+    "name": "@cordova-plugin-agconnect/auth",
+    "escapedName": "@cordova-plugin-agconnect%2fauth",
+    "scope": "@cordova-plugin-agconnect",
+    "rawSpec": "^1.1.0-beta",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0-beta"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "/@cordova-plugin-agconnect/auth/-/@cordova-plugin-agconnect/auth-1.1.0-beta.tgz",
+  "_shasum": "44e248da980a59b412e24e583c33b48629410bc3",
+  "_spec": "@cordova-plugin-agconnect/auth@^1.1.0-beta",
+  "_where": "/Users/yaojun/Desktop/认证服务/Cordova-SDK-master/example",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Introduction    Most apps need to identify and authenticate users to tailor the app experience for individual users. However, building such a system from scratch is a difficult process. Auth Service can quickly build a secure and reliable user authentication system for your app. You only need to access Auth Service capabilities in your app without caring about the facilities and implementation on the cloud. [Learn More](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-service-introduction)",
+  "license": "Apache License 2.0",
+  "licenseFilename": "LICENSE",
+  "main": "index.js",
+  "name": "@cordova-plugin-agconnect/auth",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0-beta"
+}

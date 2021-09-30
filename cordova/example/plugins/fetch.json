@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-agc-crash": {
+    "source": {
+      "type": "registry",
+      "id": "@cordova-plugin-agconnect/crash@^1.1.0-beta"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-agc-auth": {
+    "source": {
+      "type": "registry",
+      "id": "@cordova-plugin-agconnect/auth@^1.1.0-beta"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "cordova-plugin-agc-crash-tests",
+  "version": "1.1.0-beta",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-agc-crash-tests",
+    "platforms": []
+  },
+  "author": "",
+  "license": "ISC"
+}

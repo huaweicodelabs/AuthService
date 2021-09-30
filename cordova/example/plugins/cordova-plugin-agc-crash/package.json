@@ -1,0 +1,40 @@
+{
+  "_from": "@cordova-plugin-agconnect/crash",
+  "_id": "@cordova-plugin-agconnect/crash@1.1.0-beta",
+  "_inBundle": false,
+  "_integrity": "sha512-7zOqvMjEMzBoo3WxM6XJEmPwE5MRyHLr4xJ74tQOF6du9wqzY6N5eXTfWXPtEWv5+0ZbzxVfTCwBAhzrX2s45w==",
+  "_location": "/@cordova-plugin-agconnect/crash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@cordova-plugin-agconnect/crash",
+    "name": "@cordova-plugin-agconnect/crash",
+    "escapedName": "@cordova-plugin-agconnect%2fcrash",
+    "scope": "@cordova-plugin-agconnect",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "/@cordova-plugin-agconnect/crash/-/@cordova-plugin-agconnect/crash-1.1.0-beta.tgz",
+  "_shasum": "526c6eb4fcca4c5c411b3c6da24c0f3735747893",
+  "_spec": "@cordova-plugin-agconnect/crash",
+  "_where": "/Users/yaojun/Desktop/认证服务/Cordova-SDK-master/example",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "## Introduction",
+  "license": "Apache License 2.0",
+  "licenseFilename": "LICENSE",
+  "main": "index.js",
+  "name": "@cordova-plugin-agconnect/crash",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0-beta"
+}

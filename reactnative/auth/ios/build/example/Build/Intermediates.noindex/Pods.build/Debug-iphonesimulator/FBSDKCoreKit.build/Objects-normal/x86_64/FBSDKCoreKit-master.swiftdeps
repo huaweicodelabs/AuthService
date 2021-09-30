@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "50626c0b4896411a133fc06fbf5d8e8d"
+build_time: [1623294124, 974851000]
+inputs:
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/AccessToken.swift": [1623294066, 692576453]
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Imports.swift": [1623294066, 692866205]
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Permission.swift": [1623294066, 692283067]
+  "/Users/yaojun/Desktop/auth/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Swift/Settings.swift": [1623294066, 693091304]

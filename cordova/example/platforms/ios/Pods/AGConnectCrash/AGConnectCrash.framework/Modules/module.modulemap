@@ -1,0 +1,6 @@
+framework module AGConnectCrash {
+  umbrella header "AGConnectCrash.h"
+
+  export *
+  module * { export * }
+}
