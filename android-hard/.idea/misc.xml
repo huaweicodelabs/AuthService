@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/old_drive_F/Codelab/Android/Auth/Easy/AppGalleryConnectCodelab/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/old_drive_F/Codelab/Android/Auth/Hard/AppGalleryConnectCodelab/app/src/main/res/layout/activity_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/old_drive_F/Codelab/Android/Auth/Medium/AppGalleryConnectCodelab/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
