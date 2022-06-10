@@ -1,6 +1,0 @@
-framework module AGConnectAuth {
-  umbrella header "AGConnectAuth.h"
-
-  export *
-  module * { export * }
-}

@@ -1,9 +1,0 @@
-target 'AGConnectAuthDemo' do
-
-pod 'AGConnectAuth'
-
-pod 'FBSDKLoginKit', "~> 6.0.0"
-
-pod 'GoogleSignIn',"~>5.0.2"
-
-end

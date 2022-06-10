@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F0E42C8A725EF41387C426 /* Pods_AGC_Auth_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF4DEB2E5B35E39DF39731 /* Pods_AGC_Auth_1.framework */; };
+		FF2079F927D594460021A1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2079F827D594460021A1B9 /* AppDelegate.swift */; };
+		FF2079FB27D594460021A1B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2079FA27D594460021A1B9 /* SceneDelegate.swift */; };
+		FF2079FD27D594460021A1B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2079FC27D594460021A1B9 /* ViewController.swift */; };
+		FF207A0027D594460021A1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2079FE27D594460021A1B9 /* Main.storyboard */; };
+		FF207A0227D594470021A1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF207A0127D594470021A1B9 /* Assets.xcassets */; };
+		FF207A0527D594470021A1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF207A0327D594470021A1B9 /* LaunchScreen.storyboard */; };
+		FF207A1527D59E2B0021A1B9 /* agconnect-services.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF207A1427D59E2B0021A1B9 /* agconnect-services.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5D88870A8F85C2C56C750F /* Pods-AGC-Auth-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGC-Auth-1.release.xcconfig"; path = "Target Support Files/Pods-AGC-Auth-1/Pods-AGC-Auth-1.release.xcconfig"; sourceTree = "<group>"; };
+		37BF4DEB2E5B35E39DF39731 /* Pods_AGC_Auth_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGC_Auth_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E441ABAAEC3A9FBC4F70642E /* Pods-AGC-Auth-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGC-Auth-1.debug.xcconfig"; path = "Target Support Files/Pods-AGC-Auth-1/Pods-AGC-Auth-1.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2079F527D594460021A1B9 /* AGC-Auth-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGC-Auth-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2079F827D594460021A1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2079FA27D594460021A1B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF2079FC27D594460021A1B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF2079FF27D594460021A1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF207A0127D594470021A1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF207A0427D594470021A1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF207A0627D594470021A1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF207A1427D59E2B0021A1B9 /* agconnect-services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "agconnect-services.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2079F227D594460021A1B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F0E42C8A725EF41387C426 /* Pods_AGC_Auth_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AA210D69B4F167F81B392D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E441ABAAEC3A9FBC4F70642E /* Pods-AGC-Auth-1.debug.xcconfig */,
+				0F5D88870A8F85C2C56C750F /* Pods-AGC-Auth-1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4832B3E53C443700DB3691EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37BF4DEB2E5B35E39DF39731 /* Pods_AGC_Auth_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF2079EC27D594460021A1B9 = {
+			isa = PBXGroup;
+			children = (
+				FF2079F727D594460021A1B9 /* AGC-Auth-1 */,
+				FF2079F627D594460021A1B9 /* Products */,
+				36AA210D69B4F167F81B392D /* Pods */,
+				4832B3E53C443700DB3691EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2079F627D594460021A1B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2079F527D594460021A1B9 /* AGC-Auth-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2079F727D594460021A1B9 /* AGC-Auth-1 */ = {
+			isa = PBXGroup;
+			children = (
+				FF207A1427D59E2B0021A1B9 /* agconnect-services.plist */,
+				FF2079F827D594460021A1B9 /* AppDelegate.swift */,
+				FF2079FA27D594460021A1B9 /* SceneDelegate.swift */,
+				FF2079FC27D594460021A1B9 /* ViewController.swift */,
+				FF2079FE27D594460021A1B9 /* Main.storyboard */,
+				FF207A0127D594470021A1B9 /* Assets.xcassets */,
+				FF207A0327D594470021A1B9 /* LaunchScreen.storyboard */,
+				FF207A0627D594470021A1B9 /* Info.plist */,
+			);
+			path = "AGC-Auth-1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2079F427D594460021A1B9 /* AGC-Auth-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF207A0927D594470021A1B9 /* Build configuration list for PBXNativeTarget "AGC-Auth-1" */;
+			buildPhases = (
+				A74CF80A37D86FEC4A8B241E /* [CP] Check Pods Manifest.lock */,
+				FF2079F127D594460021A1B9 /* Sources */,
+				FF2079F227D594460021A1B9 /* Frameworks */,
+				FF2079F327D594460021A1B9 /* Resources */,
+				F821F0BE166D53DB62B58C01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGC-Auth-1";
+			productName = "AGC-Auth-1";
+			productReference = FF2079F527D594460021A1B9 /* AGC-Auth-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2079ED27D594460021A1B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FF2079F427D594460021A1B9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = FF2079F027D594460021A1B9 /* Build configuration list for PBXProject "AGC-Auth-1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2079EC27D594460021A1B9;
+			productRefGroup = FF2079F627D594460021A1B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2079F427D594460021A1B9 /* AGC-Auth-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2079F327D594460021A1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF207A0527D594470021A1B9 /* LaunchScreen.storyboard in Resources */,
+				FF207A0227D594470021A1B9 /* Assets.xcassets in Resources */,
+				FF207A0027D594460021A1B9 /* Main.storyboard in Resources */,
+				FF207A1527D59E2B0021A1B9 /* agconnect-services.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A74CF80A37D86FEC4A8B241E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AGC-Auth-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F821F0BE166D53DB62B58C01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AGC-Auth-1/Pods-AGC-Auth-1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AGC-Auth-1/Pods-AGC-Auth-1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AGC-Auth-1/Pods-AGC-Auth-1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2079F127D594460021A1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2079FD27D594460021A1B9 /* ViewController.swift in Sources */,
+				FF2079F927D594460021A1B9 /* AppDelegate.swift in Sources */,
+				FF2079FB27D594460021A1B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF2079FE27D594460021A1B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2079FF27D594460021A1B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF207A0327D594470021A1B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF207A0427D594470021A1B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF207A0727D594470021A1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF207A0827D594470021A1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF207A0A27D594470021A1B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E441ABAAEC3A9FBC4F70642E /* Pods-AGC-Auth-1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGC-Auth-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.agc.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF207A0B27D594470021A1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5D88870A8F85C2C56C750F /* Pods-AGC-Auth-1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGC-Auth-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.agc.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2079F027D594460021A1B9 /* Build configuration list for PBXProject "AGC-Auth-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF207A0727D594470021A1B9 /* Debug */,
+				FF207A0827D594470021A1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF207A0927D594470021A1B9 /* Build configuration list for PBXNativeTarget "AGC-Auth-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF207A0A27D594470021A1B9 /* Debug */,
+				FF207A0B27D594470021A1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2079ED27D594460021A1B9 /* Project object */;
+}
