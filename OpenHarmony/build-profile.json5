@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\c00415084\\.ohos\\config\\openharmony\\auto_ohos_default_com.huawei.codelab.har.cer",
+          "storePassword": "0000001BD96591BD800AB7FA23E3E1316FCD359D484440B9C70BCFF5639F63F03548DBF4B46DCBCEDD9635",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3308D6436C102E137E0FB1B8E067D2FEB74DABAD1BF67963F2742D72BD8B1567247FEE01EC765C",
+          "profile": "C:\\Users\\c00415084\\.ohos\\config\\openharmony\\auto_ohos_default_com.huawei.codelab.har.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\c00415084\\.ohos\\config\\openharmony\\auto_ohos_default_com.huawei.codelab.har.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
