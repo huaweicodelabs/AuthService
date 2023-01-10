@@ -1,6 +1,6 @@
 ## auth quickstart
 
-English | [中文](https://github.com/AppGalleryConnect/agc-demos/blob/main/Android/crash/README_ZH.md)
+English
 
 ## Table of Contents
 

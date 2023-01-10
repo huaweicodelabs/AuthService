@@ -34,7 +34,7 @@ Android Studio 3.0 or later.
 
 ## Sample Code
 
-The APMS SDK supports collecting performance data automatic and collection switch setting. Sample code: src\main\java\com\lucky\agc\demo\MainActivity
+The Auth SDK supports multiple authentication mehtods and link function.
 
 ## License
 
