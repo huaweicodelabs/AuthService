@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:alignment="top"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:greeting_banner"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="80"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="200"
+        ohos:text_color="#ff888888"
+        ohos:text="Welcome to the Codelab"/>
+
+    <Button
+        ohos:id="$+id:anonymous_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="200"
+        ohos:text_size="80"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="Anonymous Login"/>
+
+    <Text
+        ohos:id="$+id:anonymous_result"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_margin="100"
+        ohos:text_size="80"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_color="#ff888888"
+        ohos:multiple_lines="true"/>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        ohos:alignment="horizontal_center"
+        ohos:top_margin="100">
+        <TextField
+            ohos:id="$+id:country_code"
+            ohos:width="250"
+            ohos:height="match_content"
+            ohos:hint="geocode"
+            ohos:left_margin="50"
+            ohos:right_margin="40"
+            ohos:text_size="60"
+            ohos:basement="#ff888888"
+            ohos:text_input_type="pattern_number"/>
+        <TextField
+            ohos:id="$+id:phone_number"
+            ohos:width="600"
+            ohos:height="match_content"
+            ohos:hint="phone number"
+            ohos:right_margin="20"
+            ohos:text_size="60"
+            ohos:basement="#ff888888"
+            ohos:text_input_type="pattern_number"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        ohos:alignment="horizontal_center"
+        ohos:top_margin="100">
+        <TextField
+            ohos:id="$+id:verification_code"
+            ohos:width="match_content"
+            ohos:height="match_parent"
+            ohos:hint="verification code"
+            ohos:text_size="60"
+            ohos:left_margin="50px"
+            ohos:right_margin="30px"
+            ohos:basement="#ff888888"
+            ohos:text_input_type="pattern_number"/>
+        <Button
+            ohos:id="$+id:verification_code_obtain"
+            ohos:width="match_content"
+            ohos:height="match_parent"
+            ohos:text_size="60"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="Obtain Ver_Code"/>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:link_phone"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="200"
+        ohos:text_size="80"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="Link Phone Number"/>
+
+
+    <Text
+        ohos:id="$+id:result_text"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_margin="100"
+        ohos:text_size="70"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_color="#ff888888"
+        ohos:multiple_lines="true"/>
+
+</DirectionalLayout>
